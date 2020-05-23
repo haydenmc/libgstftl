@@ -325,7 +325,7 @@ gst_ftl_sink_create_ingest (GstFtlSink * self)
   params.peak_kbps = self->peak_kbps;
   params.fps_num = 0;
   params.fps_den = 1;
-  params.vendor_name = GST_PACKAGE_NAME;
+  params.vendor_name = PACKAGE_NAME;
   params.vendor_version = VERSION;
 
   status_code = ftl_ingest_create (&self->handle, &params);

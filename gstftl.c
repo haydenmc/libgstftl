@@ -76,6 +76,6 @@ plugin_init (GstPlugin * plugin)
   return TRUE;
 }
 
-GST_PLUGIN_DEFINE (GST_VERSION_MAJOR, GST_VERSION_MINOR, ftl,
+GST_PLUGIN_DEFINE (VERSION_MAJOR, VERSION_MINOR, ftl,
     "Plugin to send audio and video using Microsoft Mixer's FTL protocol",
-    plugin_init, VERSION, "MIT/X11", GST_PACKAGE_NAME, GST_PACKAGE_ORIGIN)
+    plugin_init, VERSION, "MIT/X11", PACKAGE_NAME, PACKAGE_ORIGIN)
